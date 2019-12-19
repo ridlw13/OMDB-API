@@ -44,6 +44,7 @@ $movie = json_decode($movie, true);
                         <li class="list-group-item">
                               <strong>Casts : </strong> <?= $movie['Actors'] ?> 
                         </li>
+                        
                         <li class="list-group-item"> <?= $movie['Plot'] ?>
                         </li>
                         </ul>
